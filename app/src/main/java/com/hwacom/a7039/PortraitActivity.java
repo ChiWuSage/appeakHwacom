@@ -52,13 +52,13 @@ public class PortraitActivity extends AppCompatActivity {
         cameraCanvasLinearLayout = (LinearLayout)findViewById(R.id.camera_canvas);
 
         //  load data from json
-        //loadData();
+        loadData();
 
         //  initial marquee view
-        initMarqueeView();
+        //initMarqueeView();
 
         //  initial video view
-        //initVideoView();
+        initVideoView();
 
         //  initial camera view
         initCameraView();

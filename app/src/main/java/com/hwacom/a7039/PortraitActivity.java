@@ -55,7 +55,7 @@ public class PortraitActivity extends AppCompatActivity {
         //loadData();
 
         //  initial marquee view
-        //initMarqueeView();
+        initMarqueeView();
 
         //  initial video view
         //initVideoView();

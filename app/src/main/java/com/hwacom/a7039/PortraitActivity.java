@@ -52,13 +52,13 @@ public class PortraitActivity extends AppCompatActivity {
         cameraCanvasLinearLayout = (LinearLayout)findViewById(R.id.camera_canvas);
 
         //  load data from json
-        loadData();
+        //loadData();
 
         //  initial marquee view
         //initMarqueeView();
 
         //  initial video view
-        initVideoView();
+        //initVideoView();
 
         //  initial camera view
         initCameraView();
@@ -220,7 +220,7 @@ public class PortraitActivity extends AppCompatActivity {
         Camera c = null;
         try {
             if(c == null) {
-                c = Camera.open(0); // attempt to get a Camera instance
+                c = Camera.open(Camera.CameraInfo.CAMERA_FACING_FRONT);//0); // attempt to get a Camera instance
             }
             if (debug)
                 Log.d(TAG, "get a Camera instance");
